@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>banner</key>
+	<dict>
+		<key>admob</key>
+		<string>GoogleBanner</string>
+		<key>admobnative</key>
+		<string>GoogleNativeBanner</string>
+	</dict>
+	<key>plaque</key>
+	<dict>
+		<key>admob</key>
+		<string>GooglePlaque</string>
+		<key>admobnative</key>
+		<string>GoogleNativePlaque</string>
+	</dict>
+	<key>video</key>
+	<dict>
+		<key>admob</key>
+		<string>GoogleVideo</string>
+	</dict>
+	<key>msg</key>
+	<dict>
+		<key>admobnative</key>
+		<string>GoogleMsg</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>msg</key>
+	<dict>
+		<key>headlinemsg</key>
+		<string>HeadLineMsgm</string>
+		<key>headlinenative</key>
+		<string>HeadLineMsg</string>
+	</dict>
+	<key>video</key>
+	<dict>
+		<key>headline</key>
+		<string>HeadLineRewardVideo</string>
+	</dict>
+	<key>plaque</key>
+	<dict>
+		<key>headlinenative</key>
+		<string>HeadLineNativePlaque</string>
+		<key>headline</key>
+		<string>HeadLinePlaque</string>
+		<key>headlinenativem</key>
+		<string>HeadLineVideoPlaque</string>
+		<key>headlineu</key>
+		<string>HeadLineNativeExpressPlaque</string>
+	</dict>
+	<key>splash</key>
+	<dict>
+		<key>headline</key>
+		<string>HeadLineSplash</string>
+	</dict>
+	<key>banner</key>
+	<dict>
+		<key>headlinenative</key>
+		<string>HeadLineNativeBanner</string>
+		<key>headline</key>
+		<string>HeadLineBanner</string>
+		<key>headlineu</key>
+		<string>HeadLineNativeExpressBanner</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>msg</key>
+	<dict>
+		<key>gdtnativer</key>
+		<string>GDTMsg</string>
+	</dict>
+	<key>banner</key>
+	<dict>
+		<key>gdtnativer</key>
+		<string>GDTNativeBanner2</string>
+		<key>gdtnative</key>
+		<string>GDTNativeBanner</string>
+		<key>gdt</key>
+		<string>GDTBanner</string>
+		<key>gdtu</key>
+		<string>GDTBanner2</string>
+	</dict>
+	<key>plaque</key>
+	<dict>
+		<key>gdtnativer</key>
+		<string>GDTNativePlaque2</string>
+		<key>gdtu</key>
+		<string>GDTPlaque2</string>
+		<key>gdtnativem</key>
+		<string>GDTNativeModelPlaque</string>
+		<key>gdt</key>
+		<string>GDTPlaque</string>
+		<key>gdtnative</key>
+		<string>GDTNativePlaque</string>
+	</dict>
+	<key>splash</key>
+	<dict>
+		<key>gdt</key>
+		<string>GDTSplash</string>
+	</dict>
+	<key>video</key>
+	<dict>
+		<key>gdt</key>
+		<string>GDTVideo</string>
+	</dict>
+</dict>
+</plist>
