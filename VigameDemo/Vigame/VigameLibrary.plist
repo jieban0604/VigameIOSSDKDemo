@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>apple_appid</key>
+	<string>1450711354</string>
+	<key>company_appid</key>
+	<string>17265</string>
+	<key>company_prjid</key>
+	<string>333359</string>
+	<key>statistical parameters</key>
+	<dict>
+		<key>umeng_appkey</key>
+		<string>5909889f9f06fd46640011b6</string>
+		<key>headline_appkey</key>
+		<string>163341</string>
+		<key>dataeye_trackingid</key>
+		<string>CDF83716136A3E608D69D6730D2A2C32C</string>
+		<key>appsflyer_devkey</key>
+		<string>X9NxxaMp4neHCFYreDxtd5</string>
+		<key>adjust_appToken</key>
+		<string>2r2nsy1b4gw0</string>
+		<key>facebook_appkey</key>
+		<string>(不要修改这一项内容)</string>
+		<key>google_appkey</key>
+		<string>null</string>
+	</dict>
+	<key>Used Social Agent</key>
+	<dict>
+		<key>wx-Social</key>
+		<dict>
+			<key>IS_USED</key>
+			<true/>
+			<key>AppID</key>
+			<string>wx19e9e5878d123f36</string>
+			<key>AppSecret</key>
+			<string>30e06e5af3f518894c7087a3baa15ec1</string>
+		</dict>
+		<key>fb-Social</key>
+		<dict>
+			<key>IS_USED</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
