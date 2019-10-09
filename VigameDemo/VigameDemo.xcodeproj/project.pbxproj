@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6427AC37234D73D5005224CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427AC36234D73D5005224CA /* ViewController.m */; };
+		6427AC48234D7484005224CA /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6427AC3E234D7484005224CA /* DejalActivityView.m */; };
+		6427AC49234D7484005224CA /* ApplePayAgent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6427AC41234D7484005224CA /* ApplePayAgent.mm */; };
+		6427AC4D234D7499005224CA /* feedata_apple.xml in Resources */ = {isa = PBXBuildFile; fileRef = 6427AC4C234D7499005224CA /* feedata_apple.xml */; };
 		64357A4B234C9F7D0013EA15 /* vigame_2.3.7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64357A43234C9F7D0013EA15 /* vigame_2.3.7.a */; };
 		64357A4C234C9F7D0013EA15 /* IOSLoader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64357A46234C9F7D0013EA15 /* IOSLoader.mm */; };
 		64357A4D234C9F7D0013EA15 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 64357A48234C9F7D0013EA15 /* Reachability.m */; };
@@ -74,7 +78,6 @@
 		64357B1E234CA04E0013EA15 /* AdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64357B1B234CA04D0013EA15 /* AdCell.m */; };
 		64357B1F234CA04E0013EA15 /* AdCellArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64357B1C234CA04D0013EA15 /* AdCellArray.plist */; };
 		64357B20234CA04E0013EA15 /* AdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64357B1D234CA04E0013EA15 /* AdCell.xib */; };
-		64357B23234CA0540013EA15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64357B22234CA0540013EA15 /* ViewController.m */; };
 		64357B25234CA0860013EA15 /* VigameLibrary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64357B24234CA0860013EA15 /* VigameLibrary.plist */; };
 		B167079D22C33D82005B6E67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B167079C22C33D82005B6E67 /* AppDelegate.m */; };
 		B16707A522C33D84005B6E67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16707A422C33D84005B6E67 /* Assets.xcassets */; };
@@ -131,6 +134,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6427AC35234D73D5005224CA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6427AC36234D73D5005224CA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6427AC3D234D7484005224CA /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
+		6427AC3E234D7484005224CA /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
+		6427AC40234D7484005224CA /* ApplePayAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePayAgent.h; sourceTree = "<group>"; };
+		6427AC41234D7484005224CA /* ApplePayAgent.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ApplePayAgent.mm; sourceTree = "<group>"; };
+		6427AC4C234D7499005224CA /* feedata_apple.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = feedata_apple.xml; sourceTree = "<group>"; };
 		64357A43234C9F7D0013EA15 /* vigame_2.3.7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = vigame_2.3.7.a; sourceTree = "<group>"; };
 		64357A45234C9F7D0013EA15 /* IOSLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSLoader.h; sourceTree = "<group>"; };
 		64357A46234C9F7D0013EA15 /* IOSLoader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IOSLoader.mm; sourceTree = "<group>"; };
@@ -258,8 +268,6 @@
 		64357B1B234CA04D0013EA15 /* AdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdCell.m; sourceTree = "<group>"; };
 		64357B1C234CA04D0013EA15 /* AdCellArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AdCellArray.plist; sourceTree = "<group>"; };
 		64357B1D234CA04E0013EA15 /* AdCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdCell.xib; sourceTree = "<group>"; };
-		64357B21234CA0540013EA15 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../../../../Users/eddy/Documents/iOS原生项目/NativeTest/NativeTest/ViewController.h"; sourceTree = "<group>"; };
-		64357B22234CA0540013EA15 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../../../../Users/eddy/Documents/iOS原生项目/NativeTest/NativeTest/ViewController.m"; sourceTree = "<group>"; };
 		64357B24234CA0860013EA15 /* VigameLibrary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VigameLibrary.plist; sourceTree = "<group>"; };
 		B167079822C33D82005B6E67 /* VigameDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VigameDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B167079B22C33D82005B6E67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -532,6 +540,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6427AC38234D7484005224CA /* pay */ = {
+			isa = PBXGroup;
+			children = (
+				6427AC3C234D7484005224CA /* tools */,
+				6427AC3F234D7484005224CA /* apple_pay */,
+			);
+			path = pay;
+			sourceTree = "<group>";
+		};
+		6427AC3C234D7484005224CA /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				6427AC3D234D7484005224CA /* DejalActivityView.h */,
+				6427AC3E234D7484005224CA /* DejalActivityView.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		6427AC3F234D7484005224CA /* apple_pay */ = {
+			isa = PBXGroup;
+			children = (
+				6427AC40234D7484005224CA /* ApplePayAgent.h */,
+				6427AC41234D7484005224CA /* ApplePayAgent.mm */,
+			);
+			path = apple_pay;
+			sourceTree = "<group>";
+		};
 		64357A44234C9F7D0013EA15 /* tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -878,6 +913,7 @@
 		B167078F22C33D82005B6E67 = {
 			isa = PBXGroup;
 			children = (
+				6427AC4C234D7499005224CA /* feedata_apple.xml */,
 				B16707B122C340BA005B6E67 /* Vigame */,
 				B167079A22C33D82005B6E67 /* VigameDemo */,
 				B167079922C33D82005B6E67 /* Products */,
@@ -898,8 +934,8 @@
 			children = (
 				B167079B22C33D82005B6E67 /* AppDelegate.h */,
 				B167079C22C33D82005B6E67 /* AppDelegate.m */,
-				64357B21234CA0540013EA15 /* ViewController.h */,
-				64357B22234CA0540013EA15 /* ViewController.m */,
+				6427AC35234D73D5005224CA /* ViewController.h */,
+				6427AC36234D73D5005224CA /* ViewController.m */,
 				64357B1A234CA04D0013EA15 /* AdCell.h */,
 				64357B1B234CA04D0013EA15 /* AdCell.m */,
 				64357B1D234CA04E0013EA15 /* AdCell.xib */,
@@ -916,6 +952,7 @@
 		B16707B122C340BA005B6E67 /* Vigame */ = {
 			isa = PBXGroup;
 			children = (
+				6427AC38234D7484005224CA /* pay */,
 				64357B24234CA0860013EA15 /* VigameLibrary.plist */,
 				64357A4F234C9F870013EA15 /* ad */,
 				64357A44234C9F7D0013EA15 /* tools */,
@@ -1637,6 +1674,7 @@
 				64357AE3234C9F870013EA15 /* GDT.plist in Resources */,
 				64357B15234C9F870013EA15 /* Unity.plist in Resources */,
 				64357B0B234C9F870013EA15 /* Ironsource.plist in Resources */,
+				6427AC4D234D7499005224CA /* feedata_apple.xml in Resources */,
 				64357AF7234C9F870013EA15 /* GoogleNativeBanner.xib in Resources */,
 				64357B08234C9F870013EA15 /* BUAdSDK.bundle in Resources */,
 				64357ADD234C9F870013EA15 /* ad.png in Resources */,
@@ -1675,12 +1713,14 @@
 				64357AE4234C9F870013EA15 /* GDTNativeModelPlaque.m in Sources */,
 				64357AE0234C9F870013EA15 /* GDTMsg.m in Sources */,
 				64357AF4234C9F870013EA15 /* GoogleVideo.m in Sources */,
+				6427AC48234D7484005224CA /* DejalActivityView.m in Sources */,
 				64357A4D234C9F7D0013EA15 /* Reachability.m in Sources */,
 				64357AE1234C9F870013EA15 /* GDTNativeBanner.m in Sources */,
 				64357AE8234C9F870013EA15 /* GDTPlaque2.m in Sources */,
 				64357B1E234CA04E0013EA15 /* AdCell.m in Sources */,
 				64357B05234C9F870013EA15 /* HeadLineVideoPlaque.m in Sources */,
 				64357B04234C9F870013EA15 /* HeadLinePlaque.m in Sources */,
+				6427AC37234D73D5005224CA /* ViewController.m in Sources */,
 				64357AE7234C9F870013EA15 /* GDTPlaque.m in Sources */,
 				64357AEF234C9F870013EA15 /* GoogleBanner.m in Sources */,
 				64357AF3234C9F870013EA15 /* GooglePlaque.m in Sources */,
@@ -1694,7 +1734,7 @@
 				64357A4E234C9F7D0013EA15 /* VBAdUtils.mm in Sources */,
 				64357B10234C9F870013EA15 /* MobVistaPlaque.m in Sources */,
 				64357B07234C9F870013EA15 /* HeadLineRewardVideo.m in Sources */,
-				64357B23234CA0540013EA15 /* ViewController.m in Sources */,
+				6427AC49234D7484005224CA /* ApplePayAgent.mm in Sources */,
 				64357AFE234C9F870013EA15 /* HeadLineMsgm.m in Sources */,
 				64357B0D234C9F870013EA15 /* IsVideo.m in Sources */,
 				64357AE9234C9F870013EA15 /* GDTSplash.m in Sources */,
